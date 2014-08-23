@@ -18,9 +18,9 @@
          <Alignment>  </Alignment>
          <Company>  </Company>
          <Portrait>  </Portrait>
-         <Experience>  </Experience>
-         <CarriedMoney> 10 gp </CarriedMoney>
-         <StoredMoney>  </StoredMoney>
+         <Experience> 783 </Experience>
+         <CarriedMoney> 35 gp </CarriedMoney>
+         <StoredMoney> 0 gp </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
          <Companions>  </Companions>
@@ -1885,10 +1885,10 @@
       as character names, as well as internal data
    -->
    <textstring name="_PER_LEVEL_1_Carried Money" >
-      10 gp
+      35 gp
    </textstring>
    <textstring name="_PER_LEVEL_1_Stored Money" >
-      
+      0 gp
    </textstring>
    <textstring name="_PER_LEVEL_1_Residuum" >
       0
@@ -1925,6 +1925,15 @@
    </textstring>
    <textstring name="_INTERNAL_VersatileUsedTwoHanded" >
       0
+   </textstring>
+   <textstring name="Character Save File" >
+      C:\Windows\TEMP\tmp3BAB.tmp
+   </textstring>
+   <textstring name="Experience Points" >
+      783
+   </textstring>
+   <textstring name="Campaign Notes" >
+      Carrying:[Wolf meat and crappy hide][Filthy Kolbold sized rags][50 Shades of Black (On load to Jaazt)][Mandible][Table leg (rotted)][Rat tails]
    </textstring>
 
 
