@@ -1449,6 +1449,24 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
                <specific name="_SupportsID" > ID_FMP_ITEM_SET_1 </specific>
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Symbol of Dire Fate +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2566" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2566&amp;ftype=1" charelem="172" legality="rules-legal" >
+               <specific name="Flavor" > This symbol glimmers with divine light as you press your advantage against an enemy. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 1000 </specific>
+               <specific name="Magic Item Type" > Holy Symbol </specific>
+               <specific name="Critical" > +1d6 damage per plus, +1d12 damage per plus against enemies currently marked by you. </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Implement" > Holy Symbol </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_149126 </specific>
+               <specific name="Property" > When you use this holy symbol to attack a target currently marked by you, you gain a +1 bonus to the attack roll. </specific>
+               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -2112,18 +2130,18 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
             <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="46" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="47" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="172" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="173" legality="rules-legal" />
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="48" legality="rules-legal" >
-               <RulesElement name="" type="" charelem="173" legality="rules-legal" />
+               <RulesElement name="" type="" charelem="174" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="174" legality="rules-legal" />
             <RulesElement name="" type="" charelem="175" legality="rules-legal" />
             <RulesElement name="" type="" charelem="176" legality="rules-legal" />
             <RulesElement name="" type="" charelem="177" legality="rules-legal" />
             <RulesElement name="" type="" charelem="178" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="179" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="49" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="179" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="180" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="50" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="51" legality="rules-legal" />
@@ -2149,7 +2167,7 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
                <RulesElement name="Intimidate Bonus" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_INTIMIDATE_BONUS" charelem="14" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Strength" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_STRENGTH" charelem="1" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="180" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="181" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Fighter" type="Class" internal-id="ID_FMP_CLASS_3" url="http://www.wizards.com/dndinsider/compendium/class.aspx?id=3" charelem="9" legality="rules-legal" >
             <RulesElement name="Fighter" type="Grants" internal-id="ID_INTERNAL_GRANTS_FIGHTER" charelem="61" legality="rules-legal" >
@@ -2268,60 +2286,63 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
          </RulesElement>
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="181" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="182" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="182" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="183" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="183" legality="rules-legal" />
+         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="184" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="184" legality="rules-legal" />
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="185" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Scale Armor" type="Armor" internal-id="ID_FMP_ARMOR_5" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=5&amp;ftype=2" charelem="185" legality="rules-legal" />
+         <RulesElement name="Scale Armor" type="Armor" internal-id="ID_FMP_ARMOR_5" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=5&amp;ftype=2" charelem="186" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Bracers of Mighty Striking (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_964" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=964&amp;ftype=1" charelem="186" legality="rules-legal" />
+         <RulesElement name="Bracers of Mighty Striking (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_964" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=964&amp;ftype=1" charelem="187" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="6" legality="rules-legal" >
          <RulesElement name="Bolstering Breath" type="Feat" internal-id="ID_FMP_FEAT_2176" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2176" charelem="159" legality="rules-legal" />
          <RulesElement name="Unstoppable" type="Power" internal-id="ID_FMP_POWER_1119" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1119" charelem="160" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="187" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="188" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="188" legality="rules-legal" />
+         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="189" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="189" legality="rules-legal" />
-         <RulesElement name="Supremely Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6181" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6181&amp;ftype=1" charelem="190" legality="rules-legal" />
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="190" legality="rules-legal" />
+         <RulesElement name="Supremely Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6181" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6181&amp;ftype=1" charelem="191" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="191" legality="rules-legal" />
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="192" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="192" legality="rules-legal" />
-         <RulesElement name="Vanguard Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2455" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2455&amp;ftype=1" charelem="193" legality="rules-legal" />
+         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="193" legality="rules-legal" />
+         <RulesElement name="Vanguard Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2455" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2455&amp;ftype=1" charelem="194" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="194" legality="rules-legal" />
-         <RulesElement name="Armor of Dwarven Vigor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6879&amp;ftype=1" charelem="195" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="195" legality="rules-legal" />
+         <RulesElement name="Armor of Dwarven Vigor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6879&amp;ftype=1" charelem="196" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="196" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="197" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="197" legality="rules-legal" />
+         <RulesElement name="Greatsword" type="Weapon" internal-id="ID_FMP_WEAPON_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=3" charelem="198" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="7" legality="rules-legal" >
          <RulesElement name="Daunting Onslaught" type="Power" internal-id="ID_FMP_POWER_12848" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=12848" charelem="161" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="198" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="199" legality="rules-legal" />
       </RulesElement>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Symbol of Dire Fate +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2566" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2566&amp;ftype=1" charelem="200" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -2372,7 +2393,7 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
       0
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpA2A0.tmp
+      C:\Windows\TEMP\tmpD624.tmp
    </textstring>
    <textstring name="Experience Points" >
       2250
@@ -2397,6 +2418,9 @@ You use your second wind and regain an additional 1d6 hit points per plus. </spe
    </textstring>
    <textstring name="_PER_LEVEL_3_Residuum" >
       0
+   </textstring>
+   <textstring name="_INTERNAL_EquippedSymbol" >
+      Symbol of Dire Fate +1
    </textstring>
 
 
